@@ -3,11 +3,11 @@
 
 namespace michele.natale.games.sudokus;
 
-using static SudokuSolver;
 using static michele.natale.services.Randoms.RandomHolder;
+using static SudokuSolver;
 
 public abstract class SudokuGamesBase
-{ 
+{
   public DifficultyLevel DLevel { get; private set; } = DifficultyLevel.None;
 
   public SudokuGamesBase()

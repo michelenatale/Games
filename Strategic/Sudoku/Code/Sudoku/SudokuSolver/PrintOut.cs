@@ -3,7 +3,7 @@
 
 namespace michele.natale.games.sudokus;
 
-public partial class SudokuSolver
+partial class SudokuSolver
 {
 
   private static void PrintOut(byte[] bytes)

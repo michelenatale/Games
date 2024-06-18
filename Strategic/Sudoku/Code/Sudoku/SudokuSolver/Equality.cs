@@ -3,7 +3,7 @@
 
 namespace michele.natale.games.sudokus;
 
-public partial class SudokuSolver
+partial class SudokuSolver
 {
 
   private static bool EqualityAll(params List<List<byte>>[] grids)

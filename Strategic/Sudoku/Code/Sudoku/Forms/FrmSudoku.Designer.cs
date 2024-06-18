@@ -58,7 +58,7 @@ partial class FrmSudoku
     this.MinimumSize = new Size(785, 515);
     this.Name = "FrmSudoku";
     this.StartPosition = FormStartPosition.CenterScreen;
-    this.Text = "Sudoku - Created by © Michele Natale 2024";
+    this.Text = "Sudoku - Created by © Michele Natale 2010";
     this.FormClosed += this.FrmSudoku_FormClosed;
     this.Load += this.FrmSudoku_Load;
     this.ResumeLayout(false);

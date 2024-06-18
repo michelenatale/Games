@@ -3,11 +3,11 @@
 
 namespace michele.natale.games.sudokus;
 
-using sudokus.Handlers;
-using Sudoku.Properties;
 using michele.natale.games.sudokus.apps;
+using Sudoku.Properties;
+using sudokus.Handlers;
 
-public partial class FrmSudoku : Form
+internal partial class FrmSudoku : Form
 {
 
   internal event EventHandler<SudokuEventArgs>? SudokuHandler;

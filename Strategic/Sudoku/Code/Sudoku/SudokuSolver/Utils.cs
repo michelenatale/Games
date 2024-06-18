@@ -2,7 +2,7 @@
 
 namespace michele.natale.games.sudokus;
 
-public partial class SudokuSolver
+partial class SudokuSolver
 {
 
   private static bool ContainsSubsequence<T>(List<T> sequence, List<T> subsequence)

@@ -1,12 +1,7 @@
-﻿
-using System.Diagnostics;
-
-
-namespace michele.natale.games.sudokus;
+﻿namespace michele.natale.games.sudokus;
 
 using apps;
 using Handlers;
-using michele.natale.games.sudokus;
 
 public class SudokuGames : SudokuGamesBase
 {

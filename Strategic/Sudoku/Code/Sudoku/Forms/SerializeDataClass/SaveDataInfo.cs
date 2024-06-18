@@ -3,7 +3,7 @@
 
 namespace michele.natale.games.sudokus.apps;
 
- 
+
 internal class SaveDataInfo
 {
   public List<List<List<byte>>> OrgDatas

@@ -1,10 +1,10 @@
 ﻿
 
- 
+
 namespace michele.natale.games.sudokus;
 
 
-public partial class SudokuSolver
+partial class SudokuSolver
 {
 
   public static bool CheckNumbers(

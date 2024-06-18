@@ -2,7 +2,7 @@
 
 namespace michele.natale.games.sudokus;
 
-public partial class SudokuSolver
+partial class SudokuSolver
 {
   private static List<List<byte>> Combinations(
     List<List<byte>> possibles, ref int idx,

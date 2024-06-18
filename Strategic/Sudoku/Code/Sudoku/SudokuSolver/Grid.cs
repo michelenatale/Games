@@ -6,7 +6,7 @@ namespace michele.natale.games.sudokus;
 
 using static michele.natale.services.Randoms.RandomHolder;
 
-public partial class SudokuSolver
+partial class SudokuSolver
 {
 
   public static List<List<byte>> CustomizeGrid(List<List<byte>> grid, DifficultyLevel dlevel)

@@ -6,7 +6,7 @@ namespace michele.natale.games.sudokus;
 
 using static michele.natale.services.Randoms.RandomHolder;
 
-public partial class SudokuSolver
+partial class SudokuSolver
 {
   public static bool SolverSudoku(
     List<List<byte>> bytes,
@@ -14,7 +14,7 @@ public partial class SudokuSolver
     int numberofsolution = 1,
     int level = 1, bool xsudoku = false)
   {
-    if (!CheckNumbers(bytes,out var xy, xsudoku)) return false;
+    if (!CheckNumbers(bytes, out var xy, xsudoku)) return false;
     var count = HowManyNumbersAreSet(bytes);
     if (count <= 10) SolverSudokuInit(bytes);
 
@@ -220,7 +220,7 @@ public partial class SudokuSolver
     var count = HowManyNumbersAreSet(grid);
     if (count > 10) return;
 
-    if (count > 0 && !CheckNumbers(grid,out var xyz)) return;
+    if (count > 0 && !CheckNumbers(grid, out var xyz)) return;
 
     if (!CheckDia08(grid))
     {

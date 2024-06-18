@@ -8,6 +8,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Platforms>AnyCPU;x64</Platforms>
     <ApplicationIcon>myLogo64.ico</ApplicationIcon>
+
+
+    <Authors>© Michele Natale 2010</Authors>
+    <Product>© Sudoku 2010</Product>
+    <Company>© Michele Natale 2010</Company>
+    <Description>
+      Sudoku, the popular strategic puzzle game.
+      The aim of Sudoku is to fill a 9x9 grid with numbers so that every row, column and 3x3 square contains all the digits between 1 and 9.
+    </Description>
+    <Copyright>© Sudoku 2010 created by © Michele Natale 2010. Updated and rewritten to DotNet8.0. in 2024.</Copyright>
   </PropertyGroup>
 
   <ItemGroup>

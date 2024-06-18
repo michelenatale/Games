@@ -229,7 +229,7 @@ partial class FrmStart
     this.MinimumSize = new Size(650, 515);
     this.Name = "FrmStart";
     this.StartPosition = FormStartPosition.CenterScreen;
-    this.Text = "Sudoku - Created by © Michele Natale 2024";
+    this.Text = "Sudoku - Created by © Michele Natale 2010";
     this.TlpStartMain.ResumeLayout(false);
     this.TlpStartMainMiddle.ResumeLayout(false);
     this.TlpStartMainBottom.ResumeLayout(false);

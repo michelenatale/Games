@@ -3,7 +3,7 @@ using System.Text.Json;
 
 namespace michele.natale.games.sudokus.services;
 
-internal partial class SudokuServices
+partial class SudokuServices
 {
   #region Json Serialization
 

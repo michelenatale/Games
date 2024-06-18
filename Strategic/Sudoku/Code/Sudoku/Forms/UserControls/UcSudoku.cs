@@ -2,12 +2,12 @@
 
 namespace michele.natale.games.sudokus.apps;
 
-using sudokus;
 using Handlers;
-using static sudokus.SudokuSolver;
+using sudokus;
 using static services.SudokuServices;
+using static sudokus.SudokuSolver;
 
-public partial class UcSudoku : UserControl
+internal partial class UcSudoku : UserControl
 {
 
   #region Variables

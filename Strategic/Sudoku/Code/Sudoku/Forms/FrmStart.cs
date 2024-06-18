@@ -63,7 +63,7 @@ public partial class FrmStart : Form
   private void Close_Form(DifficultyLevel dlevel)
   {
     this.DLevel = dlevel;
-    this.DialogResult = DialogResult.OK; 
+    this.DialogResult = DialogResult.OK;
     this.Close();
   }
 

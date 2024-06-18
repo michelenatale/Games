@@ -18,7 +18,7 @@ public enum DifficultyLevel : uint
 }
 
 
-public abstract class DifficultyLevelLength
+internal abstract class DifficultyLevelLength
 {
 
   public static DifficultyLevel RngDifficultyLevel()

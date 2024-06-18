@@ -1,8 +1,4 @@
-﻿
-
-using System.Text;
-
-namespace michele.natale.games.sudokus.services;
+﻿namespace michele.natale.games.sudokus.services;
 
 partial class SudokuServices
 {

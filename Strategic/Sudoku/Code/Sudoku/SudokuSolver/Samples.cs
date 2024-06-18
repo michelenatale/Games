@@ -9,7 +9,7 @@
 
 //partial class SudokuSolver
 //{
- 
+
 
 //  public static List<List<byte>> Sample()
 //  {
