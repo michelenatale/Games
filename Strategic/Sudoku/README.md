@@ -14,5 +14,6 @@ The Sudoku offered here offers the possibility to play with 6 levels of difficul
 
 Depending on the game status, several solutions can be generated. The Sudoku offered here offers a maximum of 10 solutions, as long as 10 solutions are still possible.
 
-![](https://github.com/michelenatale/Games/blob/main/Strategic/Sudoku/Documentation/Sudoku_Doc_Animation2.gif)
+![](https://github.com/michelenatale/Games/blob/main/Strategic/Sudoku/Documentation/01_NewSudokuTrim.gif)![](https://github.com/michelenatale/Games/blob/main/Strategic/Sudoku/Documentation/02_SudokuSolutionTrim.gif)![](https://github.com/michelenatale/Games/blob/main/Strategic/Sudoku/Documentation/03_SudokuSaveLoadTrim.gif)![](https://github.com/michelenatale/Games/blob/main/Strategic/Sudoku/Documentation/04_SudokuSolverTrim.gif)![](https://github.com/michelenatale/Games/blob/main/Strategic/Sudoku/Documentation/05_SudokuFinishTrim.gif)
+
 
