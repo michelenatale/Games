@@ -197,16 +197,13 @@ partial class SudokuSolver
     var count = -1;
     var result = -1;
     for (var i = 0; i < 9; i++)
-    {
-      //for (var j = 0; j < 9; j++)
-      //{
+    { 
       var len = rowlist[i].Count;
       if (len < 9 && len > count)
       {
         count = rowlist[i].Count;
         result = i;
-      }
-      //}
+      } 
     }
     return result;
   }

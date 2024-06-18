@@ -1,4 +1,5 @@
-﻿namespace michele.natale.games.sudokus;
+﻿
+namespace michele.natale.games.sudokus;
 
 using apps;
 using Handlers;
@@ -40,7 +41,7 @@ public class SudokuGames : SudokuGamesBase
       if (e.NewGame)
       {
         args = SudokuSolver.NewSudokuGame(e);
-        e.XSudoku = e.XSudoku;
+        e.XSudoku = args.XSudoku;
         e.NewGame = args.NewGame;
         e.SudokuDatas = args.SudokuDatas;
         e.NumberOfSolution = args.NumberOfSolution;
@@ -55,7 +56,6 @@ public class SudokuGames : SudokuGamesBase
       e.SudokuDatas = args.SudokuDatas;
       e.NumberOfSolution = args.NumberOfSolution;
       e.DifficultyLevel = args.DifficultyLevel;
-
     }
   }
 }

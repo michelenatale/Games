@@ -149,6 +149,8 @@ internal partial class UcSudoku : UserControl
         MessageBox.Show(str, titel, MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         this.UcResize(true);
+        this.SetCellChangeEvents(false);
+        this.BtUcSolution.Enabled = false;
       }
     }
 
