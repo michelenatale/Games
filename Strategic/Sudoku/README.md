@@ -12,7 +12,7 @@ With the "Sudoku solver" button you can create your own Sudoku. It is also possi
 
 The Sudoku offered here offers the possibility to play with 6 levels of difficulty. It is also possible to play X-Sudoku, in which the diagonals must also be taken into account in addition to the requirements mentioned above.
 
-Depending on the game status, several solutions can still be generated. The Sudoku offered here offers 10 solutions, as long as 10 solutions are still possible.
+Depending on the game status, several solutions can be generated. The Sudoku offered here offers a maximum of 10 solutions, as long as 10 solutions are still possible.
 
 ![](https://github.com/michelenatale/Games/blob/main/Strategic/Sudoku/Documentation/Sudoku_Doc_Animation2.gif)
 
