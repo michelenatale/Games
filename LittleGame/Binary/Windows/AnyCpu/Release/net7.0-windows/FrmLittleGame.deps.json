@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "FrmLittleGame/1.0.0": {
+        "runtime": {
+          "FrmLittleGame.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FrmLittleGame/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

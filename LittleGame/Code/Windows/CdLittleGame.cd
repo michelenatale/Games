@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FrmLittleGame.Properties.Resources">
+    <Position X="6.5" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAQAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="michele.natale.Games.LittleGameEventArgs">
+    <Position X="6.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAABAAAAEAAgAAAAQ=</HashCode>
+      <FileName>EventHandler\LittleGameEventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="michele.natale.Games.FrmMain">
+    <Position X="3" Y="0.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="michele.natale.Games.FrmMain.TlpHolder">
+        <TypeIdentifier>
+          <NewMemberFileName>Forms\TlpHolder.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BMAABBIACTAAgKAEABAAgAAiIAAAAAIACQEAAEAQAE4=</HashCode>
+      <FileName>Forms\FrmMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="michele.natale.Games.LittleGame">
+    <Position X="0.5" Y="5.75" Width="2" />
+    <InheritanceLine Type="michele.natale.Games.LittleGameBase" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="1.5" Y="5.218" />
+        <Point X="1.5" Y="5.353" />
+        <Point X="1.5" Y="5.353" />
+        <Point X="1.5" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAEAAAAAAAAAAAAAAAAEAAAhgAAQ=</HashCode>
+      <FileName>LittleGame\Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="michele.natale.Games.LittleGameBase">
+    <Position X="0.5" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACEEAQAAAAAgAAAAEEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LittleGame\LittleGameBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="michele.natale.Randoms.RandomHoder">
+    <Position X="6.5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Random\RandomHolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="michele.natale.Randoms.Program">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
